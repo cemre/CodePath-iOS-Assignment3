@@ -177,14 +177,24 @@ class MailboxViewController: UIViewController, UIGestureRecognizerDelegate {
             }
             
             if currentX < -60 && currentX > -260 {
-                UIView.animateWithDuration(0.2, animations: { () -> Void in
-                    self.reschedulePanelView.alpha = 1
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.messageView.frame.origin.x = -320
+                    self.rightView.frame.origin.x = 20
+                }, completion: { (Bool) -> Void in
+                    UIView.animateWithDuration(0.2, animations: { () -> Void in
+                        self.reschedulePanelView.alpha = 1
+                    })
                 })
             }
             
             if currentX <= -260 {
-                UIView.animateWithDuration(0.2, animations: { () -> Void in
-                    self.listPanelView.alpha = 1
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.messageView.frame.origin.x = -320
+                    self.rightView.frame.origin.x = 20
+                    }, completion: { (Bool) -> Void in
+                        UIView.animateWithDuration(0.2, animations: { () -> Void in
+                            self.listPanelView.alpha = 1
+                        })
                 })
             }
             
