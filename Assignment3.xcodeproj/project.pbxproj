@@ -10,9 +10,27 @@
 		B6CF88941A06F3EC00FC0CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF88931A06F3EC00FC0CC8 /* AppDelegate.swift */; };
 		B6CF88961A06F3EC00FC0CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF88951A06F3EC00FC0CC8 /* ViewController.swift */; };
 		B6CF88991A06F3ED00FC0CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88971A06F3ED00FC0CC8 /* Main.storyboard */; };
-		B6CF889B1A06F3ED00FC0CC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CF889A1A06F3ED00FC0CC8 /* Images.xcassets */; };
 		B6CF889E1A06F3ED00FC0CC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CF889C1A06F3ED00FC0CC8 /* LaunchScreen.xib */; };
 		B6CF88AA1A06F3ED00FC0CC8 /* Assignment3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF88A91A06F3ED00FC0CC8 /* Assignment3Tests.swift */; };
+		B6CF88C41A06F4AD00FC0CC8 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88B31A06F4AC00FC0CC8 /* app_icon@2x.png */; };
+		B6CF88C51A06F4AD00FC0CC8 /* archive_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88B41A06F4AC00FC0CC8 /* archive_icon@2x.png */; };
+		B6CF88C61A06F4AD00FC0CC8 /* archive_nav_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88B51A06F4AC00FC0CC8 /* archive_nav_icon@2x.png */; };
+		B6CF88C71A06F4AD00FC0CC8 /* delete_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88B61A06F4AC00FC0CC8 /* delete_icon@2x.png */; };
+		B6CF88C81A06F4AD00FC0CC8 /* feed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88B71A06F4AC00FC0CC8 /* feed@2x.png */; };
+		B6CF88C91A06F4AD00FC0CC8 /* help_label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88B81A06F4AC00FC0CC8 /* help_label@2x.png */; };
+		B6CF88CA1A06F4AD00FC0CC8 /* later_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88B91A06F4AC00FC0CC8 /* later_icon@2x.png */; };
+		B6CF88CB1A06F4AD00FC0CC8 /* later_nav_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88BA1A06F4AC00FC0CC8 /* later_nav_icon@2x.png */; };
+		B6CF88CC1A06F4AD00FC0CC8 /* launch-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88BB1A06F4AC00FC0CC8 /* launch-568h@2x.png */; };
+		B6CF88CD1A06F4AD00FC0CC8 /* list_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88BC1A06F4AC00FC0CC8 /* list_icon@2x.png */; };
+		B6CF88CE1A06F4AD00FC0CC8 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88BD1A06F4AC00FC0CC8 /* list@2x.png */; };
+		B6CF88CF1A06F4AD00FC0CC8 /* mail_nav_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88BE1A06F4AC00FC0CC8 /* mail_nav_icon@2x.png */; };
+		B6CF88D01A06F4AD00FC0CC8 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88BF1A06F4AC00FC0CC8 /* menu@2x.png */; };
+		B6CF88D11A06F4AD00FC0CC8 /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88C01A06F4AC00FC0CC8 /* message@2x.png */; };
+		B6CF88D21A06F4AD00FC0CC8 /* nav@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88C11A06F4AC00FC0CC8 /* nav@2x.png */; };
+		B6CF88D31A06F4AD00FC0CC8 /* reschedule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88C21A06F4AC00FC0CC8 /* reschedule@2x.png */; };
+		B6CF88D41A06F4AD00FC0CC8 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF88C31A06F4AC00FC0CC8 /* search@2x.png */; };
+		B6CF88D71A06F50F00FC0CC8 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF88D61A06F50F00FC0CC8 /* MailboxViewController.swift */; };
+		B6CF88D91A06F83E00FC0CC8 /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF88D81A06F83E00FC0CC8 /* CellViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +49,29 @@
 		B6CF88931A06F3EC00FC0CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6CF88951A06F3EC00FC0CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6CF88981A06F3ED00FC0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6CF889A1A06F3ED00FC0CC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6CF889D1A06F3ED00FC0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B6CF88A31A06F3ED00FC0CC8 /* Assignment3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF88A81A06F3ED00FC0CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CF88A91A06F3ED00FC0CC8 /* Assignment3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment3Tests.swift; sourceTree = "<group>"; };
+		B6CF88B31A06F4AC00FC0CC8 /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88B41A06F4AC00FC0CC8 /* archive_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archive_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88B51A06F4AC00FC0CC8 /* archive_nav_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archive_nav_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88B61A06F4AC00FC0CC8 /* delete_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88B71A06F4AC00FC0CC8 /* feed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed@2x.png"; sourceTree = "<group>"; };
+		B6CF88B81A06F4AC00FC0CC8 /* help_label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help_label@2x.png"; sourceTree = "<group>"; };
+		B6CF88B91A06F4AC00FC0CC8 /* later_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "later_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88BA1A06F4AC00FC0CC8 /* later_nav_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "later_nav_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88BB1A06F4AC00FC0CC8 /* launch-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-568h@2x.png"; sourceTree = "<group>"; };
+		B6CF88BC1A06F4AC00FC0CC8 /* list_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88BD1A06F4AC00FC0CC8 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		B6CF88BE1A06F4AC00FC0CC8 /* mail_nav_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_nav_icon@2x.png"; sourceTree = "<group>"; };
+		B6CF88BF1A06F4AC00FC0CC8 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		B6CF88C01A06F4AC00FC0CC8 /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		B6CF88C11A06F4AC00FC0CC8 /* nav@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav@2x.png"; sourceTree = "<group>"; };
+		B6CF88C21A06F4AC00FC0CC8 /* reschedule@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reschedule@2x.png"; sourceTree = "<group>"; };
+		B6CF88C31A06F4AC00FC0CC8 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		B6CF88D61A06F50F00FC0CC8 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		B6CF88D81A06F83E00FC0CC8 /* CellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +113,14 @@
 		B6CF88901A06F3EC00FC0CC8 /* Assignment3 */ = {
 			isa = PBXGroup;
 			children = (
+				B6CF88D51A06F4B600FC0CC8 /* Images */,
 				B6CF88931A06F3EC00FC0CC8 /* AppDelegate.swift */,
 				B6CF88951A06F3EC00FC0CC8 /* ViewController.swift */,
 				B6CF88971A06F3ED00FC0CC8 /* Main.storyboard */,
-				B6CF889A1A06F3ED00FC0CC8 /* Images.xcassets */,
 				B6CF889C1A06F3ED00FC0CC8 /* LaunchScreen.xib */,
 				B6CF88911A06F3EC00FC0CC8 /* Supporting Files */,
+				B6CF88D61A06F50F00FC0CC8 /* MailboxViewController.swift */,
+				B6CF88D81A06F83E00FC0CC8 /* CellViewController.swift */,
 			);
 			path = Assignment3;
 			sourceTree = "<group>";
@@ -110,6 +148,30 @@
 				B6CF88A81A06F3ED00FC0CC8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6CF88D51A06F4B600FC0CC8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B6CF88B31A06F4AC00FC0CC8 /* app_icon@2x.png */,
+				B6CF88B41A06F4AC00FC0CC8 /* archive_icon@2x.png */,
+				B6CF88B51A06F4AC00FC0CC8 /* archive_nav_icon@2x.png */,
+				B6CF88B61A06F4AC00FC0CC8 /* delete_icon@2x.png */,
+				B6CF88B71A06F4AC00FC0CC8 /* feed@2x.png */,
+				B6CF88B81A06F4AC00FC0CC8 /* help_label@2x.png */,
+				B6CF88B91A06F4AC00FC0CC8 /* later_icon@2x.png */,
+				B6CF88BA1A06F4AC00FC0CC8 /* later_nav_icon@2x.png */,
+				B6CF88BB1A06F4AC00FC0CC8 /* launch-568h@2x.png */,
+				B6CF88BC1A06F4AC00FC0CC8 /* list_icon@2x.png */,
+				B6CF88BD1A06F4AC00FC0CC8 /* list@2x.png */,
+				B6CF88BE1A06F4AC00FC0CC8 /* mail_nav_icon@2x.png */,
+				B6CF88BF1A06F4AC00FC0CC8 /* menu@2x.png */,
+				B6CF88C01A06F4AC00FC0CC8 /* message@2x.png */,
+				B6CF88C11A06F4AC00FC0CC8 /* nav@2x.png */,
+				B6CF88C21A06F4AC00FC0CC8 /* reschedule@2x.png */,
+				B6CF88C31A06F4AC00FC0CC8 /* search@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +254,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CF88D11A06F4AD00FC0CC8 /* message@2x.png in Resources */,
 				B6CF88991A06F3ED00FC0CC8 /* Main.storyboard in Resources */,
+				B6CF88C61A06F4AD00FC0CC8 /* archive_nav_icon@2x.png in Resources */,
+				B6CF88C41A06F4AD00FC0CC8 /* app_icon@2x.png in Resources */,
+				B6CF88CC1A06F4AD00FC0CC8 /* launch-568h@2x.png in Resources */,
+				B6CF88CE1A06F4AD00FC0CC8 /* list@2x.png in Resources */,
+				B6CF88C51A06F4AD00FC0CC8 /* archive_icon@2x.png in Resources */,
+				B6CF88CF1A06F4AD00FC0CC8 /* mail_nav_icon@2x.png in Resources */,
+				B6CF88D21A06F4AD00FC0CC8 /* nav@2x.png in Resources */,
+				B6CF88D01A06F4AD00FC0CC8 /* menu@2x.png in Resources */,
+				B6CF88D41A06F4AD00FC0CC8 /* search@2x.png in Resources */,
+				B6CF88D31A06F4AD00FC0CC8 /* reschedule@2x.png in Resources */,
+				B6CF88CB1A06F4AD00FC0CC8 /* later_nav_icon@2x.png in Resources */,
+				B6CF88C81A06F4AD00FC0CC8 /* feed@2x.png in Resources */,
+				B6CF88C71A06F4AD00FC0CC8 /* delete_icon@2x.png in Resources */,
+				B6CF88C91A06F4AD00FC0CC8 /* help_label@2x.png in Resources */,
+				B6CF88CD1A06F4AD00FC0CC8 /* list_icon@2x.png in Resources */,
+				B6CF88CA1A06F4AD00FC0CC8 /* later_icon@2x.png in Resources */,
 				B6CF889E1A06F3ED00FC0CC8 /* LaunchScreen.xib in Resources */,
-				B6CF889B1A06F3ED00FC0CC8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +292,8 @@
 			files = (
 				B6CF88961A06F3EC00FC0CC8 /* ViewController.swift in Sources */,
 				B6CF88941A06F3EC00FC0CC8 /* AppDelegate.swift in Sources */,
+				B6CF88D91A06F83E00FC0CC8 /* CellViewController.swift in Sources */,
+				B6CF88D71A06F50F00FC0CC8 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
